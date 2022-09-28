@@ -1,4 +1,4 @@
-arrowTop = document.getElementById("upArrow");
+let arrowTop = document.getElementById("upArrow");
 document.getElementsByClassName("show");
 document.getElementsByClassName("hide");
 
@@ -10,9 +10,9 @@ let scrolling = function () {
 
     let y = window.scrollY;
     if (y > 70) {
-        arrowTop.className = "show"
+        arrowTop.className = "show";
     } else {
-        arrowTop.className = "hide"
+        arrowTop.className = "hide";
     }
 };
 
